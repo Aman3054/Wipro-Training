@@ -1,0 +1,8 @@
+CREATE TABLE Product (
+	ProdId INT IDENTITY(1,1) PRIMARY KEY,
+	Name VARCHAR(50),
+	Brand VARCHAR(50),
+	ManuDate DATE,
+	ExpDate DATE,
+	Price DECIMAL(10,2)
+);

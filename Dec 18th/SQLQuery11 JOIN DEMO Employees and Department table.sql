@@ -1,0 +1,10 @@
+CREATE TABLE Departments(
+	DeptId INT PRIMARY KEY,
+	DeptName VARCHAR(50)
+);
+
+CREATE TABLE Employees (
+	EmpId INT PRIMARY KEY,
+	EmpName VARCHAR(50),
+	DeptId INT NULL
+);
